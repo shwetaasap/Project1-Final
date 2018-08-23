@@ -1,0 +1,77 @@
+body{
+    background-image:url( 'orange.jpg ');
+    background-image:cover;
+}
+.heading{
+   font-size: 55px;
+   color: black;
+   text-align: center;
+   text-decoration-line: underline;
+   background-image:url('21.jpg') ;
+   width: 100%;
+   font-style: italic;
+}
+.heading img{
+    float: left;display: inline-block;border:5px solid black;
+}
+body >.heading h5 {
+  font-size: 20px  
+}
+.navigation >.links li a {
+    display: block;
+}
+.navigation >.links{
+    list-style-type:none;
+}
+li{display: inline-block;}
+.button{
+    background-color:rgb(226, 96, 64);
+    color:rgb(10, 9, 9);
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 2px;
+    cursor: pointer;
+    box-shadow:0 6px rgb(165, 163, 162);
+    border-radius: 15px;
+    display: block;font-style: italic;
+}
+.button:active{box-shadow: 10px rgb(131, 127, 127) 0;
+}
+.button:hover{background-color: #b1d8b0;
+}
+.button1{
+    background-color:rgb(27, 172, 27);
+}
+.button2{
+    background-color:rgb(48, 156, 228);
+}
+.button3{
+    background-color:rgb(235, 169, 27);
+}
+.ba{
+    background-image:url( 'orange.jpg ');
+    background-repeat: no-repeat;
+    background-size:100%;
+    max-width:100%;
+    height:auto;
+    color:black;
+    text-align: center;
+}
+.highlight:hover{
+    background-color: #b1d8b0;
+}
+main section h3 img{
+    image-resolution:rgba(151, 145, 145, 0.205);
+}
+.article h3{
+    font-display: normal;font-size: 50px;text-shadow:red 0 -3px;
+}
+.text{
+    text-align: left;font-style: normal;
+}
+main section article p{
+    text-align: left;font-style: normal;font-size: 20px; 
+}
